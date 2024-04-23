@@ -1,2 +1,2 @@
 # chase12803.github.io
-Personal Site Testing Zone
+Using this page as a testing ground for my [personal website](https://www.chasecarstensen.com)
