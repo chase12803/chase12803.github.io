@@ -17,6 +17,11 @@ body {
     height: 100vh;
 }
 
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 #top-margin {
     font-size: 3em;
     font-weight: 100;
