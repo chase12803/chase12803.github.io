@@ -51,7 +51,7 @@ a {
 	    -webkit-animation: gradient 3s ease infinite;
 } */
 
-@-webkit-keyframes gradient {
+/* @-webkit-keyframes gradient {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -73,7 +73,7 @@ a {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 .container {
     position: absolute;
