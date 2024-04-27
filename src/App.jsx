@@ -4,7 +4,7 @@ import Socials from '../pages/socials';
 import Projects from '../pages/projects';
 import Error from '../pages/nopage';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from 'react-router-dom'
