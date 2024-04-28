@@ -20,12 +20,14 @@ const lastArr = [
     { id: 14, letter: "e" },
     { id: 15, letter: "n" },
 ]
-const letterAnimation =
-{
+
+const letterAnimation = {
     x: [evaluate('250*cos(90 deg)-250'), evaluate('250 * cos(75 deg)-250'), evaluate('250 * cos(60 deg)-250'), evaluate('250 * cos(45 deg)-250'), evaluate('250 * cos(30 deg)-250'), evaluate('250 * cos(15 deg)-250'), evaluate('250 * cos(0 deg)-250')],
     y: [evaluate('-250 * sin(90 deg)'), evaluate('-250 * sin(75 deg)'), evaluate('-250 * sin(60 deg)'), evaluate('-250 * sin(45 deg)'), evaluate('-250 * sin(30 deg)'), evaluate('-250 * sin(15 deg)'), 0],
     scale: [0, 1]
 }
+
+const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08 });
 
 const Name = () => (
     <div className="absolute inset-0
@@ -36,7 +38,7 @@ const Name = () => (
                 {firstArr.map((letter, i) => (
                     <motion.div
                         animate={letterAnimation}
-                        transition={{ duration: 0.1, delay: letter.id * 0.1 }}>
+                        transition={letterTransition(letter)}>
                         <Letter letter={letter.letter} />
                     </motion.div>
                 ))}
@@ -45,7 +47,7 @@ const Name = () => (
                 {lastArr.map((letter, i) => (
                     <motion.div
                         animate={letterAnimation}
-                        transition={{ duration: 0.1, delay: letter.id * 0.1 }}>
+                        transition={letterTransition(letter)}>
                         <Letter letter={letter.letter} />
                     </motion.div>
                 ))}

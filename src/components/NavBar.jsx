@@ -34,31 +34,23 @@ const NavBar = () => {
     );
 };
 
+const PixelIcon = () => (
+    <div className="home-icon group">
+        <span className="nav-tooltip group-hover:scale-100">
+            Menu
+        </span>
+    </div>
+);
 
-
-const PixelIcon = () => {
-    return (
-        <div className="home-icon group">
-            <span className="nav-tooltip group-hover:scale-100">
-                Menu
+const NavIcon = ({ Icon, text }) => (
+    <Link to={"/" + text.toLowerCase()}>
+        <button className="nav-icon group">
+            {Icon}
+            <span className="nav-tooltip group-hover:scale-100 ">
+                {text}
             </span>
-        </div>
-    );
-    ;
-}
-
-const NavIcon = ({ Icon, text }) => {
-    const [rotate, setRotate] = React.useState(false);
-    return (
-        <Link to={"/" + text.toLowerCase()}>
-            <button className="nav-icon group">
-                {Icon}
-                <span className="nav-tooltip group-hover:scale-100">
-                    {text}
-                </span>
-            </button>
-        </Link>
-    );
-};
+        </button>
+    </Link>
+);
 
 export default NavBar;

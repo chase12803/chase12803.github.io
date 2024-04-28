@@ -1,0 +1,18 @@
+# Personal Website To-Do List
+
+1. Finish home page
+    a. Improve animations
+        i. Brainstorm better ways to animate name
+        ii. Change font?
+    b. Fix tooltip showing up when it shouldn't
+    c. Comment all existing code !!!
+    d. Figure out color scheme
+    e. Design rest of home page
+2. Attempt to publish on GitHub Pages
+    a. Figure out how to build the site
+    b. BrowserRouter workaround
+3. Design Resume Page
+4. Design Socials Page
+    a. Spotify integration?
+5. Design Projects Page
+    a. Nothing to show ATM
