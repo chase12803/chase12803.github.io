@@ -1,9 +1,12 @@
+import Name from '../src/components/Name';
 import NavBar from '../src/components/NavBar';
 
 const Home = () => (
     <div>
-        <section className="flex">
+        <section className="relative flex bg-gradient-to-r from-fuchsia-500 to-pink-500
+                            h-screen">
             <NavBar />
+            <Name />
         </section>
     </div>
 );
