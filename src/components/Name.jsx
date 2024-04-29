@@ -6,7 +6,7 @@ const firstArr = [
     { id: 2, letter: "o" },
     { id: 3, letter: "r" },
     { id: 4, letter: "k" },
-    { id: 5, letter: " " },
+    { id: 5, letter: "\u00A0" },
     { id: 6, letter: "i" },
     { id: 7, letter: "n" },
 ]
