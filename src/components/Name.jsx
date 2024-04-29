@@ -52,7 +52,7 @@ const letterAnimation = {
     scale: [0, 1]
 }
 
-const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08, type: "tween", stiffness: 170 });
+const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08, type: "tween" });
 
 const Name = () => (
     <div className="absolute inset-0
