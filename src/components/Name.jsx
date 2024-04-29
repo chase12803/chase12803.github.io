@@ -41,10 +41,10 @@ const lastArr = [
 //     { id: 15, letter: "n" },
 // ]
 
-const xPos = (ang) => (evaluate('250*cos(' + ang +'deg)-250'))
-const yPos = (ang) => (evaluate('-250*sin(' + ang +'deg)'))
+const xPos = (ang) => (250 * Math.cos(ang)-250)
+const yPos = (ang) => (-250 * Math.sin(ang))
 
-const angles = [90, 75, 60, 45, 30, 15, 0]
+const angles = [90, 75, 60, 45, 30, 15, 0].map((theta) => Math.PI * theta / 180)
 
 const letterAnimation = {
     x: angles.map(ang => xPos(ang)),

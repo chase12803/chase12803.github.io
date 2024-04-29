@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaRegNewspaper } from "react-icons/fa6";
-import { FaAddressCard } from "react-icons/fa";
-import { BsPersonWorkspace } from "react-icons/bs";
+import { FaAddressCard, FaCode } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const pages = [
     {id: 1, title: "Resume", icon: FaRegNewspaper},
     {id: 2, title: "Socials", icon: FaAddressCard},
-    {id: 3, title: "Projects", icon: BsPersonWorkspace},
+    {id: 3, title: "Projects", icon: FaCode},
 ]
 
 const NavBar = () => {
