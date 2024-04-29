@@ -41,18 +41,24 @@ const lastArr = [
 //     { id: 15, letter: "n" },
 // ]
 
+const xPos = (ang) => (evaluate('250*cos(' + ang +'deg)-250'))
+const yPos = (ang) => (evaluate('-250*sin(' + ang +'deg)'))
+
+const angles = [90, 75, 60, 45, 30, 15, 0]
+
 const letterAnimation = {
-    x: [evaluate('250*cos(90 deg)-250'), evaluate('250 * cos(75 deg)-250'), evaluate('250 * cos(60 deg)-250'), evaluate('250 * cos(45 deg)-250'), evaluate('250 * cos(30 deg)-250'), evaluate('250 * cos(15 deg)-250'), evaluate('250 * cos(0 deg)-250')],
-    y: [evaluate('-250 * sin(90 deg)'), evaluate('-250 * sin(75 deg)'), evaluate('-250 * sin(60 deg)'), evaluate('-250 * sin(45 deg)'), evaluate('-250 * sin(30 deg)'), evaluate('-250 * sin(15 deg)'), 0],
+    x: angles.map(ang => xPos(ang)),
+    y: angles.map(ang => yPos(ang)),
     scale: [0, 1]
 }
 
-const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08 });
+const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08, type: "tween", stiffness: 170 });
 
 const Name = () => (
     <div className="absolute inset-0
                     table p-3
-                    top-24 left-36">
+                    top-12 left-6
+                    lg:top-24 lg:left-36">
         <div className="flex flex-col">
             <div className="flex flex-row">
                 {firstArr.map((letter, i) => (
