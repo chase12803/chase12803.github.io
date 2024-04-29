@@ -37,7 +37,7 @@ const NavBar = () => {
 const PixelIcon = () => (
     <div className="home-icon group">
         <span className="nav-tooltip group-hover:scale-100">
-            Menu
+            Page Menu
         </span>
     </div>
 );
