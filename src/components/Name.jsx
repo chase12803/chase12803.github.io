@@ -61,7 +61,7 @@ const Name = () => (
                     lg:top-24 lg:left-36">
         <div className="flex flex-col">
             <div className="flex flex-row">
-                {firstArr.map((letter, i) => (
+                {firstArr.map((letter) => (
                     <motion.div
                         animate={letterAnimation}
                         transition={letterTransition(letter)}>
