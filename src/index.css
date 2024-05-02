@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Kode+Mono:wght@400..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,7 +8,7 @@
   /* Home Page NavBar Classes */
   .home-icon { /* Pixel art icon */
     @apply relative flex items-center justify-center 
-           size-12 mt-2 mb-2 mx-auto shadow-lg
+           size-12 mt-2 mb-2 mx-auto shadow-xl
            bg-pixel-me bg-contain
            rounded-3xl hover:rounded-xl
            transition-all duration-300;
@@ -14,8 +16,8 @@
   .nav-icon { /* Nav Button */
     @apply relative flex items-center justify-center 
            size-12 mt-2 mb-2 mx-auto shadow-lg
-           bg-blue-100
-           hover:bg-blue-800
+           bg-gradient-to-br from-emerald-400 to-blue-500
+           hover:bg-pink-600
            rounded-3xl hover:rounded-xl
            transition-all duration-300 z-10;
   }

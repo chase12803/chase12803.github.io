@@ -6,14 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      // Creating a new background image for the home icon
       backgroundImage: {
         'pixel-me': "url('/src/assets/pixel_me.png')",
       },
-      dropShadow: {
-        glow: [
-          "0 0px 20px rgba(255,255, 255, 0.35)",
-          "0 0px 65px rgba(255, 255,255, 0.2)"
-        ]
+      fontFamily: {
+        // Overwriting the default font
+        sans: ["Kode Mono"],
       }
     },
   },
