@@ -10,23 +10,19 @@
     @apply relative flex items-center justify-center 
            size-12 mt-2 mb-2 mx-auto shadow-xl
            bg-pixel-me bg-contain
-           rounded-3xl hover:rounded-xl
-           transition-all duration-300;
+           rounded-3xl;
   }
   .nav-icon { /* Nav Button */
     @apply relative flex items-center justify-center 
            size-12 mt-2 mb-2 mx-auto shadow-lg
            bg-gradient-to-br from-emerald-400 to-blue-500
-           hover:bg-pink-600
-           rounded-3xl hover:rounded-xl
-           transition-all duration-300 z-10;
+           rounded-3xl;
   }
   .nav-tooltip { /* Text Tooltip on NavIcon hover */
     @apply absolute w-auto p-2 m-2 min-w-max left-14
            rounded-md shadow-md
            text-white bg-blue-500
-           text-xs font-bold
-           transition-all duration-100 scale-0 origin-left;
+           text-xs font-bold scale-0 -z-20;
   }
   /* Home Page Name Classes */
   .name-letter { /* Pixel art icon */

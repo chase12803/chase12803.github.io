@@ -14,7 +14,7 @@ const NavBar = () => {
     const [rotate, setRotate] = React.useState(false);
     return (
         <div className="fixed top-0 left-0 h-screen w-16
-                        flex flex-col text-white z-20">
+                        flex flex-col text-white">
             <motion.div
                 animate={{ rotate: rotate ? 360 : 0 }}
                 transition={{ duration: 0.2 }}
@@ -34,21 +34,41 @@ const NavBar = () => {
 };
 
 const PixelIcon = () => (
-    <div className="home-icon group">
-        <span className="nav-tooltip group-hover:scale-100">
+    <motion.div className="home-icon"  
+                    transition={{ duration: 0.2 }}
+                    initial = "default"
+                    whileHover="hover"
+                    variants={iconVariant}>
+        <motion.span className="nav-tooltip" 
+                            variants={tooltipVariant}>
             Page Menu
-        </span>
-    </div>
+        </motion.span>
+    </motion.div>
 );
+
+const tooltipVariant = {
+    default: { x: -56, scale: 0 },
+    hover: { x: 0, scale: 1 },
+};
+
+const iconVariant = {
+    default: {borderRadius: "24px"},
+    hover: {borderRadius: "10px"},
+};
 
 const NavIcon = ({ Icon, text }) => (
     <Link to={"/" + text.toLowerCase()}>
-        <button className="nav-icon group">
+        <motion.button className="nav-icon" 
+                        transition={{ duration: 0.2 }}
+                        initial = "default"
+                        whileHover="hover"
+                        variants={iconVariant}>
             {Icon}
-            <span className="nav-tooltip group-hover:scale-100 ">
+            <motion.span className="nav-tooltip"
+                            variants={tooltipVariant}>
                 {text}
-            </span>
-        </button>
+            </motion.span>
+        </motion.button>
     </Link>
 );
 
