@@ -3,14 +3,11 @@
 1. Finish home page
     a. Improve animations
         i. Brainstorm better ways to animate name
-        ii. Change font?
-    b. Fix tooltip showing up when it shouldn't
+    b. Add picture
     c. Comment all existing code !!!
     d. Figure out color scheme
     e. Design rest of home page
     f. Fix Mobile view
-2. Attempt to publish on GitHub Pages
-    b. BrowserRouter workaround
 3. Design Resume Page
 4. Design Socials Page
     a. Spotify integration?
