@@ -59,10 +59,11 @@ const Name = () => (
                     table p-3
                     top-12 left-6
                     lg:top-24 lg:left-36">
-        <div className="flex flex-col">
+        <div className="name-letter flex flex-col">
             <div className="flex flex-row">
-                {firstArr.map((letter) => (
+                {firstArr.map((letter, id) => (
                     <motion.div
+                        key = {id}
                         animate={letterAnimation}
                         transition={letterTransition(letter)}>
                         <Letter letter={letter.letter} />
@@ -70,8 +71,9 @@ const Name = () => (
                 ))}
             </div>
             <div className="flex flex-row">
-                {lastArr.map((letter, i) => (
+                {lastArr.map((letter, id) => (
                     <motion.div
+                        key = {id}
                         animate={letterAnimation}
                         transition={letterTransition(letter)}>
                         <Letter letter={letter.letter} />
@@ -83,7 +85,7 @@ const Name = () => (
 );
 
 const Letter = ({ letter }) => (
-    <div className="name-letter">
+    <div>
         {letter}
     </div>
 );

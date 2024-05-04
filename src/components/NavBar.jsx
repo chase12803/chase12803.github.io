@@ -21,10 +21,11 @@ const NavBar = () => {
                 onClick={() => setRotate(!rotate)}>
                 <PixelIcon />
             </motion.div>
-            {pages.map((page, i) => (
+            {pages.map((page, id) => (
                 <motion.div 
+                key = {id}
                 animate={{ scale: rotate ? 1 : 0 }}
-                transition={{ duration: 0.2, delay: i * 0.1}}
+                transition={{ duration: 0.2, delay: id * 0.1}}
                 initial={{scale: 0}}>
                     <NavIcon Icon={<page.icon size="25" />} text={page.title} />
                 </motion.div>
