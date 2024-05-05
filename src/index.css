@@ -7,12 +7,6 @@
 
 @layer components {
   /* Home Page NavBar Classes */
-  .home-icon { /* Pixel art icon */
-    @apply relative flex items-center justify-center 
-           size-12 mt-2 mb-2 mx-auto shadow-xl
-           bg-pixel-me bg-contain
-           rounded-3xl;
-  }
   .nav-icon { /* Nav Button */
     @apply relative flex items-center justify-center 
            size-12 mt-2 mb-2 mx-auto shadow-lg
@@ -28,5 +22,16 @@
   /* Home Page Name Classes */
   .name-letter { /* Pixel art icon */
     @apply text-5xl lg:text-9xl font-bold text-white;
+  }
+}
+
+/* Global applications */
+@layer base {
+  html {
+    @apply overflow-auto font-jersey bg-gradient-to-r from-slate-500 to-slate-300;
+  }
+
+  body {
+    @apply fixed h-screen w-screen overflow-auto;
   }
 }

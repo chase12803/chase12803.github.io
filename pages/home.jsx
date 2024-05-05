@@ -1,16 +1,17 @@
 // Custom components
-import Name from '../src/components/Name';
-import NavBar from '../src/components/NavBar';
+import Name from "../src/components/Name";
+import NavBar from "../src/components/NavBar";
+import Picture from "../src/components/Picture";
 
 // Default home page
 const Home = () => (
-    <div>
-        <section className="relative flex bg-gradient-to-r from-slate-500 to-slate-300
-                            h-screen w-auto">
-            <NavBar />
-            <Name />
-        </section>
+  <div>
+    <div className="flex align-top justify-center bg-yellow-300">
+        <Name/>
+        <Picture />
     </div>
+    <NavBar />
+  </div>
 );
 
-export default Home
+export default Home;

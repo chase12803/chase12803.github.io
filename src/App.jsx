@@ -7,7 +7,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="font-jersey">
+    <div>
       <Router>
         <Routes>
           {/* Creating a route for each page 

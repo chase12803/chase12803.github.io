@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { evaluate } from "mathjs"
 
 const firstArr = [
     { id: 1, letter: "W" },
@@ -41,24 +40,28 @@ const lastArr = [
 //     { id: 15, letter: "n" },
 // ]
 
+// Functions to find the relative x and y positions of a letter given an angle
 const xPos = (ang) => (250 * Math.cos(ang)-250)
 const yPos = (ang) => (-250 * Math.sin(ang))
 
+// Maps these angles in degrees to radians
 const angles = [90, 75, 60, 45, 30, 15, 0].map((theta) => Math.PI * theta / 180)
 
+// Creates the animations for the letters
 const letterAnimation = {
     x: angles.map(ang => xPos(ang)),
     y: angles.map(ang => yPos(ang)),
     scale: [0, 1]
 }
 
+// Transition for the letters
 const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08, type: "tween" });
 
+
 const Name = () => (
-    <div className="absolute inset-0
-                    table p-3
-                    top-12 left-6
-                    lg:top-24 lg:left-36">
+    <div className="relative table
+                    m-auto
+                    bg-red-500">
         <div className="name-letter flex flex-col">
             <div className="flex flex-row">
                 {firstArr.map((letter, id) => (
