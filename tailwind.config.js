@@ -12,7 +12,8 @@ export default {
       },
       fontFamily: {
         // Overwriting the default font
-        sans: ["Kode Mono"],
+        jersey: ["'Jersey 25'"],
+        kode: ["Kode Mono"]
       }
     },
   },
