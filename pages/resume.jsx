@@ -1,9 +1,9 @@
-
+import Panel from "../src/components/Panel"
 
 const Resume = () => {
   return <div>
-    <section className="flex text-center font-bold text-green-600">
-    Resume
+    <section className="placeholder">
+      Resume
     </section>
   </div>
 }

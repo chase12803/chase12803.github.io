@@ -24,7 +24,11 @@
   }
 
   .home-section {
-    @apply h-fit w-full flex flex-wrap justify-evenly items-center mt-20;
+    @apply h-fit w-full flex flex-wrap justify-evenly items-center mt-16;
+  }
+
+  .placeholder {
+    @apply h-screen flex justify-center items-center font-bold text-white text-9xl;
   }
 }
 

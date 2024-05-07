@@ -14,7 +14,7 @@ const Home = () => (
         <Name/>
         <Picture/>
     </div>
-    \<div className="home-section mb-20">
+    \<div className="home-section mb-14 mt-6">
       <TextPanel title="Welcome!" text={AboutMeText} />
     </div>
     <NavBar />

@@ -2,8 +2,8 @@
 
 const Projects = () => {
   return <div>
-    <section className="flex text-center font-bold text-green-600">
-    Projects
+    <section className="placeholder">
+      Projects
     </section>
   </div>
 }
