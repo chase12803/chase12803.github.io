@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Kode+Mono:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Kode+Mono:wght@400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,24 +6,25 @@
 
 @layer components {
   /* Home Page NavBar Classes */
-  .nav-icon {
-    /* Nav Button */
-    @apply relative mx-auto mb-2 mt-2 
-           flex size-12 items-center justify-center rounded-3xl
-           bg-gradient-to-br from-emerald-400 to-blue-500
-           shadow-lg;
+  .nav-icon { /* Nav Button */
+    @apply relative flex items-center justify-center 
+           size-12 mt-2 mb-2 mx-auto shadow-lg
+           bg-gradient-to-r from-cyan-500 to-blue-500
+           rounded-3xl;
   }
-  .nav-tooltip {
-    /* Text Tooltip on NavIcon hover */
-    @apply absolute left-14 -z-20 m-2 w-auto min-w-max
-           scale-0 rounded-md
-           bg-blue-500 p-2
-           font-kode text-xs font-bold text-white shadow-md;
+  .nav-tooltip { /* Text Tooltip on NavIcon hover */
+    @apply absolute w-auto p-2 m-2 min-w-max left-14
+           rounded-md shadow-md
+           text-white bg-blue-500
+           text-xs font-bold font-kode scale-0 -z-20;
   }
   /* Home Page Name Classes */
-  .name-letter {
-    /* Pixel art icon */
-    @apply text-5xl font-bold text-white lg:text-9xl;
+  .name-letter { /* Pixel art icon */
+    @apply text-5xl lg:text-9xl font-bold text-white;
+  }
+
+  .home-section {
+    @apply h-fit w-full flex flex-wrap justify-evenly items-center mt-20;
   }
 }
 
@@ -31,11 +32,11 @@
 @layer base {
   /* h-full and overflow hidden allow the background to display properly */
   html {
-    @apply h-full overflow-hidden bg-gradient-to-r from-slate-500 to-slate-300 font-jersey;
+    @apply h-full overflow-hidden font-jersey bg-gradient-to-r from-pink-500 to-rose-500;
   }
-
+  
   /* Fixed property hides overscrolling*/
   body {
-    @apply fixed h-screen w-screen overflow-auto;
+    @apply fixed h-screen w-screen overflow-auto ;
   }
 }
