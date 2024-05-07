@@ -32,7 +32,7 @@ const NavBar = () => {
     return (
         <div className="fixed top-0 left-0 h-screen w-16
                         flex flex-col text-white">
-            {/* Our menu icon */}
+            {/* Menu icon */}
             <motion.div
                 animate={{ rotate: rotate ? 360 : 0 }}
                 transition={{ duration: 0.2 }}

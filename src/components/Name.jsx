@@ -59,9 +59,7 @@ const letterTransition = (letter) => ({ duration: 0.1, delay: letter.id * 0.08, 
 
 
 const Name = () => (
-    <div className="relative table
-                    m-auto
-                    bg-red-500">
+    <div className="h-min w-min p-1">
         <div className="name-letter flex flex-col">
             <div className="flex flex-row">
                 {firstArr.map((letter, id) => (
