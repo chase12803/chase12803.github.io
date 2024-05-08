@@ -19,6 +19,8 @@ const Name = () => (
     >
       <AnimatedText text="Work&nbsp;in" />
       <AnimatedText text="Progress" />
+      {/* <AnimatedText text="Chase" />
+      <AnimatedText text="Carstensen" /> */}
     </motion.div>
   </div>
 );
@@ -26,9 +28,7 @@ const Name = () => (
 const AnimatedText = ({ text }) => (
   <div>
     {/* Splits the given text into an array and animates each letter individually */}
-    {text.split(" ").map((word, id) => (
-      <span key={-id}>
-        {word.split("").map((letter, id) => (
+    {text.split("").map((letter, id) => (
           <motion.span
             // React gets mad if each element of a list doesn't have a unique key
             key={id}
@@ -38,8 +38,6 @@ const AnimatedText = ({ text }) => (
             {letter}
           </motion.span>
         ))}
-      </span>
-    ))}
   </div>
 );
 
