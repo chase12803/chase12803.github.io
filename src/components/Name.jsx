@@ -17,10 +17,10 @@ const Name = () => (
       animate="visible"
       transition={{ staggerChildren: 0.06 }}
     >
-      <AnimatedText text="Work&nbsp;in" />
-      <AnimatedText text="Progress" />
-      {/* <AnimatedText text="Chase" />
-      <AnimatedText text="Carstensen" /> */}
+      {/* <AnimatedText text="Work&nbsp;in" />
+      <AnimatedText text="Progress" /> */}
+      <AnimatedText text="Chase" />
+      <AnimatedText text="Carstensen" />
     </motion.div>
   </div>
 );

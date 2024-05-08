@@ -25,14 +25,14 @@ export const TextPanelLink = ({title, text, path}) => (
     </div>
 );
 
-// Displays a smaller text panel with some short intro text, and a read more button that expands the div and displays all the text
-export const TextPanelExpand = ({title, intro, text}) => (
-    <div className="panel-default">
-        <div className="panel-title">
-            {title}
-        </div>
-        <div className="panel-body">
-            {text}
-        </div>
-    </div>
-);
+// // Displays a smaller text panel with some short intro text, and a read more button that expands the div and displays all the text
+// export const TextPanelExpand = ({title, intro, text}) => (
+//     <div className="panel-default">
+//         <div className="panel-title">
+//             {title}
+//         </div>
+//         <div className="panel-body">
+//             {text}
+//         </div>
+//     </div>
+// );

@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
-import { FaAddressCard, FaCode } from "react-icons/fa";
+import { FaCode } from "react-icons/fa6";
 import { IoIosMenu } from "react-icons/io";
 import { FiHome } from "react-icons/fi";
 import { motion } from "framer-motion";
+import { IoShareSocial } from "react-icons/io5";
+
 
 // List used to populate the drop down menu
 const pages = [
   { id: 1, title: "Home", icon: FiHome },
   { id: 2, title: "Resume", icon: CgProfile },
   { id: 3, title: "Projects", icon: FaCode },
-  { id: 4, title: "Socials", icon: FaAddressCard },
+  { id: 4, title: "Socials", icon: IoShareSocial },
 ];
 
 // Animation variant to tooltips when the parent is hovered

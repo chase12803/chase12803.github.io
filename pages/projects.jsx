@@ -12,9 +12,10 @@ const Projects = () => {
       <div className="flex h-full flex-col items-center justify-between space-y-6">
         <TextPanel
           title="Current Project"
-          text="Ipsum ullamco tempor aute in velit ut. Minim duis dolore dolor velit elit. Duis minim est eu Lorem labore minim non adipisicing. Aliquip reprehenderit velit ex amet eiusmod. Consequat ullamco ex eiusmod proident ad incididunt laborum. Elit labore anim culpa ut. Tempor non culpa pariatur ipsum dolore culpa sint ad nisi cupidatat velit ea in."
+          text="Right now I'm dedicating most of my free time to developing this site. I'm building it from the ground up, by hand. The source files can be found on my GitHub. All the styling is done using Tailwind CSS and the site is built with React. I'm using Vite to build the site locally and then deploy it to GitHub where I'm hosting it using GitHub Pages. All of the animations are handled using the Framer Motion library."
         />
         <span className="page-title text-3xl">Past Projects</span>
+        <TextPanel text="None yet" />
       </div>
       <NavBar current={3} />
       {/* <div>
