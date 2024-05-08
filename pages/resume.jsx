@@ -1,12 +1,12 @@
-import NavBar from "../src/components/NavBar"
+import NavBar from "../src/components/NavBar";
 
 const Resume = () => {
-  return <div>
-    <section className="placeholder">
-      Resume
-    </section>
-    <NavBar current={2}/>
-  </div>
-}
+  return (
+    <div>
+      <section className="placeholder">Resume</section>
+      <NavBar current={2} />
+    </div>
+  );
+};
 
-export default Resume
+export default Resume;

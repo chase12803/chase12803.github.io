@@ -1,12 +1,12 @@
-import NavBar from "../src/components/NavBar"
+import NavBar from "../src/components/NavBar";
 
 const Projects = () => {
-  return <div>
-    <section className="placeholder">
-      Projects
-    </section>
-    <NavBar current={3}/>
-  </div>
-}
+  return (
+    <div>
+      <section className="placeholder">Projects</section>
+      <NavBar current={3} />
+    </div>
+  );
+};
 
-export default Projects
+export default Projects;
