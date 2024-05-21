@@ -49,6 +49,10 @@
   .panel-body {
     @apply text-wrap text-xl text-white flex flex-col;
   }
+
+  .panel-button {
+    @apply text-white shadow-xl px-2 py-1 m-1 ml-auto bg-gradient-to-r from-blue-800 to-indigo-900;
+  }
 }
 
 /* Global applications */

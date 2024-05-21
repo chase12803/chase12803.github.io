@@ -14,7 +14,7 @@ const Projects = () => {
         <TextPanelExpand
           title="Current Project"
           intro="Right now I'm dedicating most of my free time to developing this site..."
-          text="I'm building it from the ground up, by hand. The source files can be found on my GitHub. All the styling is done using Tailwind CSS and the site is built with React. I'm using Vite to build the site locally and then deploy it to GitHub where I'm hosting it using GitHub Pages. All of the animations are handled using the Framer Motion library."
+          text="I'm building it by hand with the use of a few helpful libraries and frameworks. The source files can be found on my GitHub. The site is built with React.JS and all the styling is done with Tailwind CSS. I'm using Vite to build the site locally and then deploy it to GitHub where I'm hosting it using GitHub Pages. All of the animations are handled using the Framer Motion library."
         />
         <span className="page-title text-3xl">Past Projects</span>
         <TextPanel text="None yet" />
