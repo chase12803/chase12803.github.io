@@ -47,7 +47,7 @@
   }
 
   .panel-body {
-    @apply text-wrap text-xl text-white;
+    @apply text-wrap text-xl text-white flex flex-col;
   }
 }
 
