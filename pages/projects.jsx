@@ -1,5 +1,5 @@
 import { NavBar, DefaultIcon } from "../src/components/NavBar";
-import { TextPanel } from "../src/components/Panel";
+import { TextPanel, TextPanelExpand } from "../src/components/Panel";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -7,12 +7,14 @@ const Projects = () => {
   return (
     <div>
       <div className="page-title">
-        <span>Projects</span>
+        {/* bg-gradient-to-r from-red-100 to-red-200 bg-clip-text text-transparent : Text Gradient*/}
+        <span className="p-4 ">Projects</span>
       </div>
       <div className="flex h-full flex-col items-center justify-between space-y-6">
-        <TextPanel
+        <TextPanelExpand
           title="Current Project"
-          text="Right now I'm dedicating most of my free time to developing this site. I'm building it from the ground up, by hand. The source files can be found on my GitHub. All the styling is done using Tailwind CSS and the site is built with React. I'm using Vite to build the site locally and then deploy it to GitHub where I'm hosting it using GitHub Pages. All of the animations are handled using the Framer Motion library."
+          intro="Right now I'm dedicating most of my free time to developing this site..."
+          text="I'm building it from the ground up, by hand. The source files can be found on my GitHub. All the styling is done using Tailwind CSS and the site is built with React. I'm using Vite to build the site locally and then deploy it to GitHub where I'm hosting it using GitHub Pages. All of the animations are handled using the Framer Motion library."
         />
         <span className="page-title text-3xl">Past Projects</span>
         <TextPanel text="None yet" />

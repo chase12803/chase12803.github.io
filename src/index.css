@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jersey+25&family=Kode+Mono:wght@400..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kode+Mono:wght@400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,20 +10,20 @@
     /* Nav Button */
     @apply relative mx-auto mb-2 mt-2 
            flex size-12 items-center justify-center rounded-3xl
-           bg-gradient-to-r from-cyan-500 to-blue-500
+           bg-gradient-to-r from-blue-500 to-indigo-500
            shadow-lg;
   }
   .nav-tooltip {
     /* Text Tooltip on NavIcon hover */
     @apply absolute left-14 -z-20 m-2 w-auto min-w-max
            scale-0 rounded-md
-           bg-blue-500 p-2
+           bg-indigo-500 p-2
            font-kode text-xs font-bold text-white shadow-md;
   }
   /* Home Page Name Classes */
   .name-letter {
     /* Pixel art icon */
-    @apply text-5xl font-bold text-white lg:text-9xl;
+    @apply text-5xl text-white lg:text-9xl;
   }
 
   .home-section {
@@ -31,15 +31,15 @@
   }
 
   .placeholder {
-    @apply flex h-screen items-center justify-center text-9xl font-bold text-white;
+    @apply flex h-screen items-center justify-center text-9xl text-white;
   }
 
   .page-title {
-    @apply mb-6 flex h-fit w-full justify-center space-x-14 font-jersey text-8xl text-white;
+    @apply mb-6 flex h-fit w-full justify-center space-x-14 text-8xl text-white overflow-visible;
   }
 
   .panel-default {
-    @apply relative h-auto w-auto max-w-[60%] rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500 p-3 font-jersey shadow-xl;
+    @apply relative h-auto w-auto max-w-[60%] rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 p-3 shadow-xl;
   }
 
   .panel-title {
@@ -55,7 +55,7 @@
 @layer base {
   /* h-full and overflow hidden allow the background to display properly */
   html {
-    @apply h-full overflow-hidden bg-gradient-to-r from-pink-500 to-rose-500 font-jersey;
+    @apply h-full overflow-hidden bg-gray-600 font-default;
   }
 
   /* Fixed property hides overscrolling*/
