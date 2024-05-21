@@ -33,7 +33,7 @@ export const TextPanelExpand = ({ title, intro, text }) => (
         </div>
         <div className="panel-body">
             <details class="open:ring-1 open:ring-black/5 open:shadow-lg p-6 rounded-lg">
-                <summary class="leading-6 font-semibold select-none">
+                <summary class="leading-6 select-none">
                     {intro}
                 </summary>
                 <div class="mt-3 leading-6">

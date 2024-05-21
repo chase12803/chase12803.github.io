@@ -12,7 +12,7 @@ export default {
       },
       fontFamily: {
         // Overwriting the default font
-        default: ["'JetBrains Mono'"],
+        default: ["'Monomaniac One'"],
         kode: ["Kode Mono"]
       }
     },
