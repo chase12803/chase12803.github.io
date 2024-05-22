@@ -10,20 +10,20 @@
     /* Nav Button */
     @apply relative mx-auto mb-2 mt-2 
            flex size-12 items-center justify-center rounded-3xl
-           bg-gradient-to-r from-blue-500 to-indigo-500
+           bg-gradient-to-r from-[--gradfrom] to-[--gradto]
            shadow-lg;
   }
   .nav-tooltip {
     /* Text Tooltip on NavIcon hover */
     @apply absolute left-14 -z-20 m-2 w-auto min-w-max
            scale-0 rounded-md
-           bg-indigo-500 p-2
-           font-kode text-xs font-bold text-white shadow-md;
+           bg-[--gradto] p-2
+           font-kode text-xs font-bold  shadow-md;
   }
   /* Home Page Name Classes */
   .name-letter {
     /* Pixel art icon */
-    @apply text-5xl text-white lg:text-9xl;
+    @apply text-5xl  lg:text-9xl text-white;
   }
 
   .home-section {
@@ -35,23 +35,23 @@
   }
 
   .page-title {
-    @apply mb-6 flex h-fit w-full justify-center space-x-14 text-8xl text-white overflow-visible;
+    @apply mb-6 flex h-fit w-full justify-center space-x-14 text-8xl overflow-visible text-white;
   }
 
   .panel-default {
-    @apply relative h-auto w-auto max-w-[60%] rounded-2xl bg-gradient-to-r from-blue-500 to-indigo-500 p-3 shadow-xl;
+    @apply relative h-auto w-auto max-w-[60%] rounded-2xl bg-gradient-to-r from-[--gradfrom] to-[--gradto] p-3 shadow-xl;
   }
 
   .panel-title {
-    @apply justify-start text-3xl text-white;
+    @apply justify-start text-3xl;
   }
 
   .panel-body {
-    @apply text-wrap text-xl text-white flex flex-col overflow-hidden;
+    @apply text-wrap text-xl  flex flex-col overflow-hidden;
   }
 
   .panel-button {
-    @apply text-white shadow-xl px-2 py-1 m-1 ml-auto bg-gradient-to-r from-blue-800 to-indigo-900;
+    @apply  shadow-xl px-3 py-1 m-1 ml-auto bg-gradient-to-r from-[--gradfrom] to-[--gradto];
   }
 }
 
@@ -59,7 +59,9 @@
 @layer base {
   /* h-full and overflow hidden allow the background to display properly */
   html {
-    @apply h-full overflow-hidden bg-gray-600 font-default;
+    @apply h-full overflow-hidden bg-[#003333] font-default text-white
+    /* Variables used to sync gradients */
+    [--gradfrom:#007777] [--gradto:#006666];
   }
 
   /* Fixed property hides overscrolling*/

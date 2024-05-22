@@ -36,8 +36,7 @@ export const NavBar = ({ current }) => {
   // Create the JSX obejct
   return (
     <div
-      className="fixed left-0 top-0 flex h-screen
-                        w-16 flex-col text-white"
+      className="fixed left-0 top-0 flex h-screen w-16 flex-col"
     >
       {/* Menu icon */}
       <motion.div
@@ -69,16 +68,16 @@ export const NavBar = ({ current }) => {
 
 // Default icon rendering with no tooltip
 export const DefaultIcon = ({ Icon }) => (
-    <motion.div
-      className="nav-icon"
-      transition={{ duration: 0.2 }}
-      initial="default"
-      whileHover="hover"
-      variants={iconVariant}
-    >
-      {Icon}
-    </motion.div>
-  );
+  <motion.div
+    className="nav-icon"
+    transition={{ duration: 0.2 }}
+    initial="default"
+    whileHover="hover"
+    variants={iconVariant}
+  >
+    {Icon}
+  </motion.div>
+);
 
 // Creates our menu icon with the correct hover animations
 export const MenuIcon = ({ Icon }) => (

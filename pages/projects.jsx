@@ -22,7 +22,7 @@ const Projects = () => {
       <NavBar current={3} />
       {/* <div>
         <Link
-          className="absolute text-white"
+          className="absolute"
           to="https://github.com/chase12803"
         >
           <DefaultIcon Icon={<FaGithub size="25" />} />

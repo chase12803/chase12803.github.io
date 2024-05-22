@@ -27,7 +27,7 @@ export const TextPanelLink = ({ title, text, path }) => (
 );
 
 const buttonVariant = {
-    initial: { borderRadius: "24px" },
+    initial: { borderRadius: "15px" },
     hover: { borderRadius: "10px" }
 };
 
@@ -63,9 +63,9 @@ export const TextPanelExpand = ({ title, intro, text }) => {
                     </motion.div>
                 </div>
                 <motion.span
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: openClose ? 1 : 0, height: openClose ? "auto" : 0 }}
-                    transition={{ duration: 0.1 }}>
+                    initial={{ opacity: 0, width: 0, height: 0 }}
+                    animate={{ opacity: openClose ? 1 : 0, width: openClose ? "auto" : 0, height: openClose ? "auto" : 0 }}
+                    transition={{ duration: 0.3 }}>
                     {text}
                 </motion.span>
             </div>
