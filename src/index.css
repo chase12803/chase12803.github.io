@@ -38,8 +38,12 @@
     @apply mb-6 flex h-fit w-full justify-center space-x-14 text-8xl overflow-visible text-white;
   }
 
+  .page-subtitle {
+    @apply page-title mb-0 text-3xl;
+  }
+
   .panel-default {
-    @apply relative h-auto w-auto max-w-[60%] rounded-2xl bg-gradient-to-r from-[--gradfrom] to-[--gradto] p-3 shadow-xl;
+    @apply relative h-auto w-auto max-w-[80%] md:max-w-[60%] rounded-2xl bg-gradient-to-r from-[--gradfrom] to-[--gradto] p-3 shadow-xl;
   }
 
   .panel-title {
@@ -47,7 +51,7 @@
   }
 
   .panel-body {
-    @apply text-wrap text-xl  flex flex-col overflow-hidden;
+    @apply text-wrap text-xl flex flex-col overflow-hidden;
   }
 
   .panel-button {
