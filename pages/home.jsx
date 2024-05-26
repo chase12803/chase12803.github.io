@@ -12,7 +12,7 @@ const Home = () => (
       <Name />
       <Picture />
     </div>
-    <div className="home-section mb-20 h-[22rem] justify-center space-y-10">
+    <div className="home-section mb-20 h-min justify-center space-y-10">
       <TextPanel
         title="Welcome!"
         text={
