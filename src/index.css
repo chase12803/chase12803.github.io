@@ -18,12 +18,12 @@
     @apply absolute left-14 -z-20 m-2 w-auto min-w-max
            scale-0 rounded-md
            bg-[--gradto] p-2
-           font-kode text-xs font-bold  shadow-md;
+           font-kode text-xs font-bold shadow-md;
   }
   /* Home Page Name Classes */
   .name-letter {
     /* Pixel art icon */
-    @apply text-5xl  lg:text-9xl text-white;
+    @apply text-5xl lg:text-9xl text-white;
   }
 
   .home-section {
