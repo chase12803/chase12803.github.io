@@ -18,7 +18,7 @@ const Projects = () => (
       <TextPanelExpand
         title="WPI Data Science REU"
         intro="I'm currently participating in the WPI Data Science REU site titled 'Applied AI for Advanced Applications'..."
-        text="I'm working with Dr. Elke Rudensteiner, Ph.D. students Becks Lopez and Avantika Shrestha, and fellow undergraduate researchers Nick Smalls (Providence College) and Janya Bhaskar (University of Colorado Boulder) on improving methods for the use of LLMs in mental health screening for depression."
+        text="I'm working with Dr. Elke Rudensteiner, Ph.D. students Becks Lopez and Avantika Shrestha, and fellow undergraduate researchers Nicholas Small (Providence College) and Janya Bhaskar (University of Colorado Boulder) on improving methods for the use of LLMs in mental health screening for depression."
       />
       <span className="page-subtitle">Past Projects</span>
       <TextPanel text="None yet" />
