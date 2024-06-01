@@ -41,7 +41,7 @@ export const TextPanelExpand = ({ title, intro, text }) => {
             </div>
             <div className="panel-body">
                 <div className="flex flex-row items-center">
-                    <span className="mr-3">{intro}</span>
+                    <span className="mr-3 max-w-[80%]">{intro}</span>
                     <motion.div className="panel-button"
                         onClick={() => setOpenClose(!openClose)}
                         whileHover="hover"
@@ -63,8 +63,8 @@ export const TextPanelExpand = ({ title, intro, text }) => {
                     </motion.div>
                 </div>
                 <motion.span
-                    initial={{ opacity: 0, width: 0, height: 0 }}
-                    animate={{ opacity: openClose ? 1 : 0, width: openClose ? "auto" : 0, height: openClose ? "auto" : 0 }}
+                    initial={{ opacity: 0, width: 0, height: 0, marginTop: 0 }}
+                    animate={{ opacity: openClose ? 1 : 0, width: openClose ? "auto" : 0, height: openClose ? "auto" : 0, marginTop: openClose ? "0.5rem" : 0}}
                     transition={{ duration: 0.3 }}>
                     {text}
                 </motion.span>

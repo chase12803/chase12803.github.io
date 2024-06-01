@@ -47,7 +47,7 @@
   }
 
   .panel-title {
-    @apply justify-start text-3xl;
+    @apply justify-start text-3xl ;
   }
 
   .panel-body {
@@ -55,7 +55,7 @@
   }
 
   .panel-button {
-    @apply  shadow-xl px-3 py-1 m-1 ml-auto bg-gradient-to-r from-[--gradfrom] to-[--gradto];
+    @apply h-auto shadow-xl px-3 py-1 m-1 ml-auto bg-gradient-to-r from-[--gradfrom] to-[--gradto];
   }
 }
 
