@@ -11,9 +11,14 @@ const Projects = () => (
     </div>
     <div className="flex h-full flex-col items-center justify-between space-y-6">
       <TextPanelExpand
-        title="Current Project"
-        intro="Right now I'm dedicating most of my free time to developing this site..."
+        title="Personal Site"
+        intro="Recently I've been developing this site..."
         text="I'm building it by hand with the use of a few helpful libraries and frameworks. The source files can be found on my GitHub. The site is built with React.JS and all the styling is done with Tailwind CSS. I'm using Vite to build the site locally and then deploy it to GitHub where I'm hosting it using GitHub Pages. All of the animations are handled using the Framer Motion library."
+      />
+      <TextPanelExpand
+        title="WPI Data Science REU"
+        intro="I'm currently participating in the WPI Data Science REU site titled 'Applied AI for Advanced Applications'..."
+        text="I'm working with Dr. Elke Rudensteiner, Ph.D. students Becks Lopez and Avantika Shrestha, and fellow undergraduate researchers Nick Smalls (Providence College) and Janya Bhaskar (University of Colorado Boulder) on improving methods for the use of LLMs in mental health screening for depression."
       />
       <span className="page-subtitle">Past Projects</span>
       <TextPanel text="None yet" />

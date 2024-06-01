@@ -22,7 +22,7 @@ const Home = () => (
       <TextPanelLink
         title="Projects"
         text={
-          "Currently my focus is on completeing this site. Check out the Projects page for a more in depth explanation, and to also view all my previous projects. This summer I'm thrilled to be taking part in the WPI Data Science REU 'Applied AI for Advanced Applications.' In the future I'm planning on working on some personal projects relating to AI/ML."
+          "I'm currently participating in the WPI Data Science REU 'Applied AI for Advanced Applications.' You can learn more on my projects page. I'm also still actively developing this site in my free time."
         }
         path="projects"
       />
