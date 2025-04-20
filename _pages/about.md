@@ -18,6 +18,6 @@ In my free time, I enjoy listening to/playing music, playing video games or Magi
 
 - May-July 2025: I will be participating in the WPI Center for Industrial Math and Statistics Research Experience for Undergraduates (REU) program
 - October-December 2024: I spent 8 weeks in Prague, Czechia, completing my Interactive Qualifying Project.
-- October 2024: I won a travel grant from the Computing Research Association to travel to Cambridge, MA and present my research from the WPI DS REU at the 2024 IEEE MIT Undergraduate Research Technology Conference
+- October 2024: I won a grant from the Computing Research Association to travel to Cambridge, MA and present my research from the WPI DS REU at the 2024 IEEE MIT Undergraduate Research Technology Conference
 - August-October 2024: I continued my work from the WPI DS REU as an Independent Study Project
 - May-August 2024: I participated in the 2024 WPI Data Science REU Program
