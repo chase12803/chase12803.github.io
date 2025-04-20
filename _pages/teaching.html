@@ -7,6 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+<h2>Peer Learning Assistant</h2>
+<hr />
+<p>Since the beginning of the 2023-24 academic year, I have been working as a Peer Learning Assistant for the WPI Mathematical Sciences Department. In this role, I hold regular office hours, have regular shifts in the Math Tutoring Center, hold a class once a week for a section of ~35 students, and grade their assignments/exams. One of my favorite parts of the job is working with students, professors, postdocs, graduate students and other undergraduate PLAs to ensure that students are successful in their mathematics courses at WPI.</p>
+
+<p>I have been a PLA for {{ site.data.teaching.pla | size }} classes, which are listed below. </p>
+
+{% for assistant in site.data.teaching.pla reversed %}
+<div class="archive-item">
+  <h3>{{ assistant.title }}, <em>{% if assistant.postdoc == 1 %} Dr. {% else %} Prof. {% endif %} {{ assistant.professor }}</em></h3>
+  Term: {{ assistant.term }} ({{ assistant.start_date | date: "%B %Y" }} - {{ assistant.end_date | date: "%B %Y" }})<br>
+  {{ assistant.description }}
+</div>
 {% endfor %}
+
+<!-- {% for post in site.teaching %} {% include archive-single.html %} {% endfor %} -->

@@ -1,0 +1,74 @@
+{
+  "pla": [
+    {
+      "title": "MA 1021, Calculus I",
+      "start_date": "2023-08-01",
+      "end_date": "2023-10-01",
+      "term": "A23",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Differential Calculus",
+      "professor": "John Abraham",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 1022, Calculus II",
+      "start_date": "2023-10-01",
+      "end_date": "2023-12-01",
+      "term": "B23",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Integral Calculus",
+      "professor": "John Abraham",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 1023, Calculus III",
+      "start_date": "2024-01-01",
+      "end_date": "2024-03-01",
+      "term": "C24",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Sequences, Series, Parametric Curves and Vector Algebra",
+      "professor": "Qiao Zhaung",
+      "postdoc": 1
+    },
+    {
+      "title": "MA 1023, Calculus III",
+      "start_date": "2024-03-01",
+      "end_date": "2024-05-01",
+      "term": "D24",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Sequences, Series, Parametric Curves and Vector Algebra",
+      "professor": "Marcel Blais",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 1022, Calculus II",
+      "start_date": "2024-08-01",
+      "end_date": "2024-10-01",
+      "term": "A24",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Sequences, Series, Parametric Curves and Vector Algebra",
+      "professor": "Marcus Sarkis-Martins",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 1022, Calculus II",
+      "start_date": "2025-01-01",
+      "end_date": "2025-03-01",
+      "term": "C25",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Integral Calculus",
+      "professor": "Dana Ferranti",
+      "postdoc": 1
+    },
+    {
+      "title": "MA 1022, Calculus IV",
+      "start_date": "2025-03-01",
+      "end_date": "2025-05-01",
+      "term": "D25",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Multivariate Calculus",
+      "professor": "Dalin Tang",
+      "postdoc": 0
+    }
+  ]
+}
