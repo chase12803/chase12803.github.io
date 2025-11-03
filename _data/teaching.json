@@ -69,6 +69,26 @@
       "description": "Multivariate Calculus",
       "professor": "Dalin Tang",
       "postdoc": 0
+    },
+    {
+      "title": "MA 1033, Theoretical Calculus III",
+      "start_date": "2025-08-01",
+      "end_date": "2025-10-01",
+      "term": "A25",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Sequences, Series",
+      "professor": "Darko Volkov",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 1033, Theoretical Calculus IV",
+      "start_date": "2025-10-01",
+      "end_date": "2025-12-01",
+      "term": "B25",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Multivariate Calculus",
+      "professor": "Darko Volkov",
+      "postdoc": 0
     }
   ]
 }
