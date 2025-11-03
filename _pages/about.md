@@ -22,4 +22,4 @@ In my free time, I enjoy listening to/playing music, playing video games or Magi
 - *October-December 2024:* I spent 8 weeks in Prague, Czechia, completing my Interactive Qualifying Project. We used LLMs to label historical documents in the [Memory of Nations](https://www.memoryofnations.eu/en/archive) database.
 - *October 2024:* I received a grant from the Computing Research Association to travel to Cambridge, MA and present my research from the WPI Data Science REU at the 2024 IEEE MIT Undergraduate Research Technology Conference.
 - *August-October 2024:* I continued my work from the WPI Data Science REU as an Independent Study Project.
-- *May-August 2024:* I participated in the 2024 WPI Data Science REU Program where we used LLMs to screen for depression.
+- *May-August 2024:* I participated in the 2024 WPI Data Science REU Program with Prof. [Elke Rundensteiner](https://www.wpi.edu/people/faculty/rundenst) where we used LLMs to screen for depression.
