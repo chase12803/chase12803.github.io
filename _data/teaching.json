@@ -76,7 +76,7 @@
       "end_date": "2025-10-01",
       "term": "A25",
       "location": "WPI Mathematical Sciences Department",
-      "description": "Sequences, Series",
+      "description": "Proof-Based Introduction to Sequences, Series",
       "professor": "Darko Volkov",
       "postdoc": 0
     },
@@ -86,7 +86,7 @@
       "end_date": "2025-12-01",
       "term": "B25",
       "location": "WPI Mathematical Sciences Department",
-      "description": "Multivariate Calculus",
+      "description": "Proof-Based Introduction to Multivariate Calculus",
       "professor": "Darko Volkov",
       "postdoc": 0
     }
