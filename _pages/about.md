@@ -16,8 +16,9 @@ In my free time, I enjoy listening to/playing music, playing video games or Magi
 # News
 ---
 
-- *August 2025-Present:* I've joined Prof. [Walter Gerych](https://waltergerych.github.io/)'s lab, where I'm working on minimally invasive and efficient debiasing methods for large pre-trained models.
+- *Febuary 2025:* I released [Mandarin](https://github.com/chase12803/mandarin), an open-source person AI context manager.
 - *August 2025-Present:* I'm working on my Major Qualifying Project with Prof. [Daniel Reichman](https://sites.google.com/view/danielreichman/home) and Prof. [Gábor Sárközy](https://web.cs.wpi.edu/~gsarkozy/). We are using ML/AI to find long induced paths in the hypercube.
+- *August 2025-January 2026:* I worked with Prof. [Walter Gerych](https://waltergerych.github.io/)'s lab on minimally invasive and efficient debiasing methods for large pre-trained models.
 - *May-August 2025:* I participated in the University of Colorado Research Experience for Undergraduates (REU) Program with Prof. [Jugal Kalita](https://faculty.uccs.edu/jkalita/) titled "Recent Advances in Natural Language Processing" where we evaluated an LLM's ability to find counterexamples to claims in graph theory. **Publication in progress**
 - *October-December 2024:* I spent 8 weeks in Prague, Czechia, completing my Interactive Qualifying Project. We used LLMs to label historical documents in the [Memory of Nations](https://www.memoryofnations.eu/en/archive) database.
 - *October 2024:* I received a grant from the Computing Research Association to travel to Cambridge, MA and present my research from the WPI Data Science REU at the 2024 IEEE MIT Undergraduate Research Technology Conference.
