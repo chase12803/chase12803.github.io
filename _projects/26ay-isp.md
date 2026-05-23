@@ -1,6 +1,6 @@
 ---
 title: "TrustAI Lab"
-excerpt: "<strong>Advisors: Prof. Walter Gerych, <em>August 2025-Present</em></strong><br>I've joined Prof. Walter Gerych's lab where we are working on minimally invasive and efficient debiasing methods for AI models."
+excerpt: "<strong>Advisors: Prof. Walter Gerych, <em>August 2025-January 2026</em></strong><br>I worked Prof. Walter Gerych's lab to investigate minimally invasive and efficient debiasing methods for large pre-trained models."
 collection: projects
 ---
 
