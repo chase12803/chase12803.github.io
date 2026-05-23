@@ -61,7 +61,7 @@
       "postdoc": 1
     },
     {
-      "title": "MA 1022, Calculus IV",
+      "title": "MA 1024, Calculus IV",
       "start_date": "2025-03-01",
       "end_date": "2025-05-01",
       "term": "D25",
@@ -87,6 +87,26 @@
       "term": "B25",
       "location": "WPI Mathematical Sciences Department",
       "description": "Proof-Based Introduction to Multivariate Calculus",
+      "professor": "Darko Volkov",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 2271, Graph Theory",
+      "start_date": "2026-01-01",
+      "end_date": "2026-03-01",
+      "term": "C26",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Introduction to Graphs and Graph Theory",
+      "professor": "William Martin",
+      "postdoc": 0
+    },
+    {
+      "title": "MA 1024, Calculus IV",
+      "start_date": "2026-03-01",
+      "end_date": "2026-05-01",
+      "term": "D26",
+      "location": "WPI Mathematical Sciences Department",
+      "description": "Multivariate Calculus",
       "professor": "Darko Volkov",
       "postdoc": 0
     }

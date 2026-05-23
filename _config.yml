@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Warren \"Chase\" Carstensen"
 title_separator          : "-"
 name                     : &name "Chase Carstensen"
-description              : &description "Mathematical Sciences/Computer Science Undergraduate and Researcher at WPI"
+description              : &description "Computer Science Master's Student and Researcher at WPI"
 url                      : https://chasecarstensen.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chase12803/chase12803.github.io"
@@ -22,10 +22,10 @@ repository               : "chase12803/chase12803.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : /me.jpeg
+  avatar           : /me.jpg
   name             : "Chase Carstensen"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Mathematical Sciences/Computer Science Undergraduate and Researcher at WPI"
+  bio              : "Computer Science Master's Student and Researcher at WPI"
   location         : "Worcester, MA, USA"
   employer         : "Worcester Polytechnic Institute"
   uri              : # URL
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : chase-macs.bsky.social
+  bluesky          : # chase-macs.bsky.social
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -80,7 +80,7 @@ publication_category:
   books:
     title: #'Books'
   manuscripts:
-    title: #'Journal Articles'    
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
