@@ -22,7 +22,7 @@ repository               : "chase12803/chase12803.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : /me.jpg
+  avatar           : /me.jpeg
   name             : "Chase Carstensen"
   pronouns         : "he/him" # example: "she/her"  
   bio              : "Computer Science Master's Student and Researcher at WPI"
