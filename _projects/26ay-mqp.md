@@ -4,4 +4,4 @@ excerpt: "<strong>Advisors: Prof. Daniel Reichman and Prof. Gábor Sárközy, <e
 collection: projects
 ---
 
-Find the paper [here](./mqp_report.pdf).
+Find the paper [here](../mqp_report.pdf).
