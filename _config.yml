@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Warren \"Chase\" Carstensen"
 title_separator          : "-"
 name                     : &name "Chase Carstensen"
-description              : &description "Computer Science Master's Student and Researcher at WPI"
+description              : &description "Artifical Intelligence Master's Student at BU"
 url                      : https://chasecarstensen.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chase12803/chase12803.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : /me2.jpeg
   name             : "Chase Carstensen"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Computer Science Master's Student and Researcher at WPI"
-  location         : "Worcester, MA, USA"
-  employer         : "Worcester Polytechnic Institute"
+  bio              : "Artificial Intelligence Master's Student at BU"
+  location         : "Boston, MA, USA"
+  employer         : # "Boston University"
   uri              : # URL
   email            : "chase.carstensen@outlook.com" 
 
