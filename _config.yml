@@ -79,6 +79,8 @@ author:
 publication_category:
   books:
     title: #'Books'
+  preprints:
+    title: 'Preprints'
   manuscripts:
     title: 'Journal Articles'    
   conferences:

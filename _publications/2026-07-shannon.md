@@ -1,11 +1,11 @@
 ---
 title: "Improved lower bounds for the Shannon capacity of odd cycles"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publications/2026-07-shannon
 excerpt: 'We construct independent sets of large size in strong products of odd cycles, improving the best known lower bounds for the Shannon capacity of $C_7, C_{11}, C_{13},$ and $C_{15}$.'
 date: 2026-07-23
-venue: 'arXiv preprint arXiv:2607.21517'
+venue: 'arXiv'
 slidesurl: 
 paperurl: shannon-paper.pdf
 bibtexurl: shannon.bib
