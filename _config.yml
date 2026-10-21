@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Warren \"Chase\" Carstensen"
 title_separator          : "-"
 name                     : &name "Chase Carstensen"
-description              : &description "Artifical Intelligence Master's Student at BU"
+description              : &description "Artificial Intelligence Master's Student at BU"
 url                      : https://chasecarstensen.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "chase12803/chase12803.github.io"
@@ -182,6 +182,7 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - TODO.md
   - tmp
   - vendor
 keep_files:
