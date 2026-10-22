@@ -12,12 +12,8 @@ This streamlined checklist reflects your preferences and compares your website w
 - [x] **Add Missing Flagship Publication (Shannon Capacity)**
   - Created `_publications/2026-07-shannon.md`, `_publications/shannon.bib`, and downloaded `_publications/shannon-paper.pdf`.
 
-- [ ] **Add Explicit PhD Research Interests & Prospective Advisor Hook**
-  - **File**: `_pages/about.md`
-  - **Action**: Add a concise **"Research Interests & PhD Plans"** section on the homepage highlighting:
-    - Target areas: Computational Combinatorics, Combinatorial Optimization, Graph Theory, Extremal Combinatorics, AI/RL for Mathematical Discovery.
-    - Application timeline note (e.g., *"Applying to PhD programs in Computer Science / Applied Math for Fall 202X"*).
-    - Past advisors/collaborators (Prof. Daniel Reichman, Prof. Gábor Sárközy, Prof. Jugal Kalita, Prof. Elke Rundensteiner).
+- [x] **Add Explicit PhD Research Interests & Prospective Advisor Hook**
+  - Updated `_pages/about.md` with active BU MS AI student status, research focus (computational combinatorics, graph theory, theory of ML/RL), and explicit Ph.D. goal.
 
 ---
 
@@ -27,14 +23,8 @@ This streamlined checklist reflects your preferences and compares your website w
   - **Files**: `_projects/24a-isp.md`, `_projects/24b-iqp.md`, `_projects/25summer-reu.md`, `_projects/26ay-isp.md`, `_projects/26ay-mqp.md`
   - **Action**: Either write 1–2 paragraphs for key projects (MQP Snake-in-the-Box, Graph Counterexamples REU, MInDS Depression Screening) with links to code and reports, or remove empty stub files so visitors aren't led to dead-end "Coming Soon" pages. Add an entry for the Shannon Capacity project.
 
-- [ ] **Feature Honors, Awards & Leadership on Homepage**
-  - **File**: `_pages/about.md`
-  - **Action**: Add an **Honors & Leadership** section to highlight strong academic distinctions:
-    - Meritorious Senior Award (WPI Mathematical Sciences, May 2026)
-    - Honorable Mention, Provost's Award for Best MQP in Computer Science (May 2026)
-    - CRA Travel Grant (IEEE MIT URTC, Oct 2024)
-    - Pi Mu Epsilon President (revitalized chapter, founded WPI Undergraduate Mathematics Symposium)
-    - Upsilon Pi Epsilon Events Coordinator
+- [x] **Feature Honors, Awards & Leadership on Homepage**
+  - Added `# Leadership & Honors` section to `_pages/about.md` highlighting Best MQP Award, Meritorious Senior Award, PME Presidency / Symposium, and UPE.
 
 ---
 

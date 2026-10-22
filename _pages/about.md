@@ -9,9 +9,9 @@ redirect_from:
 ---
 Hi All!
 
-My name is Chase Carstensen, I'm from southern New Hampshire, and this fall I will be continuing my education as a master's student studying Artificial Intelligence at Boston University. I'm passionate about education, the climate, and responsible artificial intelligence/machine learning research.
+My name is Chase Carstensen, and I am currently a master's student studying Artificial Intelligence at Boston University. I'm passionate about education, the climate, and responsible artificial intelligence and machine learning research.
 
-Currently, my research is focused on using machine learning and AI to assist with mathematical discovery. I'm particularly interested in its applications to combinatorial optimization. I'm also interested in AI explainability and interpretability.
+My research focuses on computational combinatorics, graph theory, and the theory of machine learning and reinforcement learning, with a particular interest in using ML and RL to assist with mathematical discovery and combinatorial optimization. My goal is to pursue a Ph.D. in Computer Science / Applied Mathematics.
 
 In my free time, I enjoy listening to/playing music, playing Magic: The Gathering, and being outdoors.
 
@@ -24,3 +24,11 @@ In my free time, I enjoy listening to/playing music, playing Magic: The Gatherin
 - *August 2025-January 2026:* I worked with Prof. [Walter Gerych](https://waltergerych.github.io/)'s lab on minimally invasive and efficient debiasing methods for large pre-trained models.
 - *May-August 2025:* I participated in the University of Colorado Research Experience for Undergraduates (REU) Program with Prof. [Jugal Kalita](https://faculty.uccs.edu/jkalita/) titled "Recent Advances in Natural Language Processing" where we evaluated an LLM's ability to find counterexamples to claims in graph theory.
 - *October-December 2024:* I spent 8 weeks in Prague, Czechia, completing my Interactive Qualifying Project. We used LLMs to label historical documents in the [Memory of Nations](https://www.memoryofnations.eu/en/archive) database.
+
+# Leadership & Honors
+---
+
+- **Best MQP in Computer Science (Honorable Mention):** Provost's Award for research on deep reinforcement learning for snake-in-the-box constructions (May 2026).
+- **Meritorious Senior Award:** Awarded by the WPI Mathematical Sciences Department for outstanding academic performance (May 2026).
+- **President, Pi Mu Epsilon:** Revitalized WPI's mathematics honor society chapter and founded the annual WPI Undergraduate Mathematics Symposium (2024–2026).
+- **Events Coordinator, Upsilon Pi Epsilon:** Co-organized the CS honor society career fair and member initiatives (2025–2026).
