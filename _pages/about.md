@@ -11,7 +11,7 @@ Hi All!
 
 My name is Chase Carstensen, and I am currently a master's student studying Artificial Intelligence at Boston University. I'm passionate about education, the climate, and responsible artificial intelligence and machine learning research.
 
-My research focuses on computational combinatorics, graph theory, and the theory of machine learning and reinforcement learning, with a particular interest in using ML and RL to assist with mathematical discovery and combinatorial optimization. My goal is to pursue a Ph.D. in Computer Science / Applied Mathematics.
+My research focuses on computational combinatorics, graph theory, and the theory of machine learning and reinforcement learning, with a particular interest in using ML and RL to assist with mathematical discovery and combinatorial optimization. My goal is to pursue a Ph.D. in Computer Science / Mathematics.
 
 In my free time, I enjoy listening to/playing music, playing Magic: The Gathering, and being outdoors.
 
